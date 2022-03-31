@@ -1,12 +1,12 @@
 $(document).ready(function(){
     var result = 0;
-    var temp = 0;
     var temp1 = 0;
     var symbol = 0;
     var screenDisplay = $('#screen-display');
     var screenDisplayField = $('#screen-display').innerText;
     var ansDisplay = $('#ans-ansDisplay');
     var ansDisplayField = $('#ans-ansDisplay').innerText;
+    var temp = 0;
     screenDisplayField = "";
     ansDisplayField = "";
     // to get value of the btn from keys-calculator
