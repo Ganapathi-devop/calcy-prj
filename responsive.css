@@ -3,7 +3,7 @@
     .body{width: 100%;}
     .header{ height: 80px;}
     #header-heading{ font-size: 4rem;}
-    .content{ padding: 0%;}
+    .content{ padding: 1rem 0px;}
     .calculator{ width: 100%;}
     .screen-calculator{ height: 15%;}
     .row-keys{ margin: 10px 0px;}
