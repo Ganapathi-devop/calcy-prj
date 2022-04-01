@@ -12,13 +12,37 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+    .body{width: 100%; height: 100%;}
+    .header{ height: 80px;}
+    #header-heading{ font-size: 4rem;}
+    .content{ padding: 1rem 0px;}
+    .calculator{ width: 100%;}
+    .screen-calculator{ height: 15%;}
+    .keys-calculator{ margin: 0px;}
+    .row-keys{ margin: 10px 0px;}
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
+    .screen-calculator{ height: 20%;}
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+    .body{width: 1294px; height: 636px; overflow: hidden;}
+    .header{ height: 100px;}
+    #header-heading{ font-size: 5rem;}
+    .content{ padding: 5rem 0rem;}
+    .calculator{ width: 50%; height: 100%;}
+    .screen-calculator{ height: 25%;}
+    .keys-calculator{ margin: 5px; height: 75%;}
+    .row-keys{ margin: 0px;}
+
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {
+
+}
