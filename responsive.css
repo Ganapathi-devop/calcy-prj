@@ -1,11 +1,12 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-.body{width: 100%; height: 100%;}
+    .body{width: 100%; height: 100%;}
     .header{ height: 80px;}
     #header-heading{ font-size: 4rem;}
     .content{ padding: 1rem 0px;}
     .calculator{ width: 100%;}
     .screen-calculator{ height: 15%;}
+    .keys-calculator{ margin: 0px;}
     .row-keys{ margin: 10px 0px;}
 
 }
