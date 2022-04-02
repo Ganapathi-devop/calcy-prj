@@ -20,7 +20,7 @@ $(document).ready(function(){
         val = btnvals.innerText;
 
            // code for display input number and hide of namder('caly me')
-        var inputVal = parseInt(val);
+        var inputVal = parseFloat(val);
         let namer = $('#screenCalculator-namer');
         let ansDisplayDiv = $('.ansDisplay-calculator');
 
@@ -43,7 +43,7 @@ $(document).ready(function(){
             // screenDisplayField = screenDisplayField + val;
             screenDisplay.text(`${screenDisplay.text()}${val}`);
             if(symbol ==1){
-                temp1 = parseInt(ansDisplayField);
+                temp1 = parseFloat(ansDisplayField);
                 console.log(temp1 + " temp1");
             }
             console.log(ansDisplayField);
@@ -57,7 +57,7 @@ $(document).ready(function(){
         symbol+=1;
         console.log(symbol + " symbol");
         if(temp1 == 0 && symbol == 1){
-            temp = parseInt(ansDisplayField);
+            temp = parseFloat(ansDisplayField);
             console.log(temp + " = temp");
             console.log(typeof(temp) + "atyper of temp");
         }else{
@@ -75,7 +75,7 @@ $(document).ready(function(){
                         result = temp * temp1;
                         break;
                 }
-                temp2 = parseInt(ansDisplayField);
+                temp2 = parseFloat(ansDisplayField);
                 console.log(temp2 + " = temp2");
                 console.log(typeof(temp2) + "atyper of temp2");                
                 temp = result;
@@ -93,7 +93,7 @@ $(document).ready(function(){
     // for displaying the ans separatly from calculation 
     function resultDisplay(){
         if(symbol<2){
-            temp1 = parseInt( ansDisplayField);
+            temp1 = parseFloat( ansDisplayField);
             console.log(temp1 + " = temp1");
             console.log(typeof(temp1) + "atyper of temp1")
             switch(inputSymbol){
