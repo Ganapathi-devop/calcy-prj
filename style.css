@@ -6,8 +6,8 @@
 .body{
     float: left;
     background: #c4c4c4;
-    width: 1294px;
-    height: 636px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
