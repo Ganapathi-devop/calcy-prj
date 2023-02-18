@@ -44,5 +44,13 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .body{width: 100vw; height: 100vh; overflow: hidden;}
+    .header{ height: 100px;}
+    #header-heading{ font-size: 5rem;}
+    .content{ padding: 5rem 0rem;}
+    .calculator{ width: 50%; height: 100%;}
+    .screen-calculator{ height: 25%;}
+    .keys-calculator{ margin: 5px; height: 75%;}
+    .row-keys{ margin: 0px;}
 
 }
